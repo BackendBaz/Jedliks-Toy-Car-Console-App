@@ -19,6 +19,7 @@ If the battery is at 0%, you can't drive the car anymore and the battery display
 You have six tasks, each of which will work with remote controlled car instances.
 
 1. Buy a brand-new remote controlled car
+   - It returns a brand-new remote controlled car instance
 2. Display the distance driven
 3. Display the battery percentage
 4. Update the number of meters driven when driving
