@@ -5,7 +5,7 @@ public class JedliksToyCar {
     }
 
     public String distanceDisplay() {
-        throw new UnsupportedOperationException("Please implement the JedliksToyCar.distanceDisplay()  method");
+        return "Driven 0 meters";
     }
 
     public String batteryDisplay() {
