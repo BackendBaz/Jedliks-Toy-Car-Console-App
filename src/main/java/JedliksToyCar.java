@@ -1,11 +1,14 @@
 public class JedliksToyCar {
 
+    private int distance = 0;
+    private int battery = 100;
+
     public static JedliksToyCar buy() {
         return new JedliksToyCar();
     }
 
     public String distanceDisplay() {
-        return "Driven 0 meters";
+        return "Driven " + distance + " meters";
     }
 
     public String batteryDisplay() {
@@ -13,7 +16,8 @@ public class JedliksToyCar {
     }
 
     public void drive() {
-        throw new UnsupportedOperationException("Please implement the JedliksToyCar.drive()  method");
+        distance += 20;
+        battery -= 1;
     }
 
 }
