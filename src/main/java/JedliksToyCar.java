@@ -12,7 +12,8 @@ public class JedliksToyCar {
     }
 
     public String batteryDisplay() {
-        return "Battery at 100%";
+        if (battery <= 0) return "Battery empty";
+        return "Battery at " + battery + "%";
     }
 
     public void drive() {
