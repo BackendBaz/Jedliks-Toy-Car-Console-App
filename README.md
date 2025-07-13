@@ -27,3 +27,4 @@ You have six tasks, each of which will work with remote controlled car instances
 4. Update the number of meters driven when driving
 5. Update the battery percentage when driving
 6. Prevent driving when the battery is drained
+   - It don't increase the distance driven nor decrease the battery percentage when the battery is drained (at 0%)

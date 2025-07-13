@@ -8,6 +8,7 @@ public class JedliksToyCar {
     }
 
     public String distanceDisplay() {
+        if (distance > 2000) return "Driven 2000 meters";
         return "Driven " + distance + " meters";
     }
 
